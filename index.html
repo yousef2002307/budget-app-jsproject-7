@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>yousef</title>
+  <!--عشان تخليه ريسبونسيف ويشتغل الانترننت الاكسبلولر-->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+ 
+
+ <section class="">
+<div class="con">
+  <h1 class="mt-3 mb-5">budget app</h1>
+  <div class="rowflex d-flex">
+  <div class="div1">
+    <div class="alert alert-danger ">you must enter a value or value can not be negative</div>
+ <form>
+  <div class="form-group" style="border: 1px solid green;">
+    <label for="#input1" class="d-block">please enter your budget</label>
+    <input id="input1" type="number" class="form-control"/>
+    <button class="btn btn-outline-success">calculate</button>
+  </div>
+  <div class="form-group" style="border: 1px solid red;">
+    <label for="#input2" class="d-block">please enter your expanse</label>
+    <input id="input2"  type="number" class="form-control"/>
+    <label for="#input3" class="d-block">please enter your expanse amount</label>
+    <input id="input3" type="text" class="form-control"/>
+    <button class="btn btn-outline-danger">enter expanse</button>
+  </div>
+ </form>
+  </div>
+  <div class="div2">
+    <div class="flexing">
+      <div>
+        <h3>budget</h3>
+        <h2><i class="fas fa-money-bill-alt"></i></h2>
+        <span class="green x1">$ <bold> 0</bold></span>
+      </div>
+      <div>
+        <h3>expanse</h3>
+        <h2><i class="far fa-credit-card"></i></h2>
+        <span class="red">$ <bold>0</bold></span>
+      </div>
+      <div>
+        <h3>balance</h3>
+        <h2><i class="fas fa-dollar-sign"></i></h2>
+        <span class="green x2">$ <bold>0</bold></span>
+      </div>
+    </div>
+    
+    <table class="table mt-5">
+    
+      <tr>
+        <td>expanse title</td>
+        <td>expanse value</td>
+        <td></td>
+      </tr>
+      
+      <tbody>
+        <!--
+        <tr>
+          <td>-fix car</td>
+          <td>200</td>
+          <td><button>delete</button> <button>alter</button></td>
+        </tr>
+        <tr>
+          <td>-fix car</td>
+          <td>200</td>
+          <td><button>delete</button> <button>alter</button></td>
+        </tr>
+        <tr>
+          <td>-fix car</td>
+          <td>200</td>
+          <td><button>delete</button> <button>alter</button></td>
+        </tr>
+      -->
+      </tbody>
+    
+    </table>
+  </div>
+</div>
+</div>
+ </section>
+
+
+
+
+
+  <!--لازم تخلي لينك ال جيكويري بعد لينكات الجافاسكريبت بتاعة ال بوتستراب-->
+
+  <!-- DO NOT USE SLIM VERSION OF JQUERY -->
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+  </script>
+  <script src="js/jq.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+
+$(".slider").slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  dots: true
+});
+  </script>
+
+  <!---
+   <script src="js/jquery.nicescroll.min.js"></script>
+-->
+
+
+
+
+  <script src='js/main.js'></script>
+
+</body>
+
+</html>
